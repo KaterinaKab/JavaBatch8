@@ -6,10 +6,31 @@ public class HW3 {
 		
 		String[] countries = { "USA", "Ukraine", "Canada" };
 		String[] capitals = { "DC", "Kyiv", "Ottawa" };
+		
 		for (int v = 0; v < countries.length; v++) {
 			System.out.println("The capital of " + countries[v] + " is " + capitals[v]);
 		}
 
+		System.out.println("---------------------------------------------------");
+		String capital;
+		for (String country :countries) {
+			switch(country) {
+			case "USA":
+				capital="DC";
+				break;
+			case "Ukraine":
+				capital="Kiev";
+				break;
+			case "Canada" :
+				capital="Ottawa";
+			break;
+			default :
+				capital = "I do not know";
+				
+				
+			}
+			System.out.println("Capital of the "+country+" is "+capital);
+		}
 	}
 
 }
