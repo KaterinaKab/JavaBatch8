@@ -1,8 +1,9 @@
-package Checking;
+package GroupTasks;
 
-public class Task4 {
+public class Task04 {
 
 	public static void main(String[] args) {
+		
 		 int [] array= {29,34,-76,1,8};
 		 int max=array [0];
 		 int min=array[0];
